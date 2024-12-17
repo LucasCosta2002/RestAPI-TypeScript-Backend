@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        //guardar en dist
+        "outDir": "./dist",
+        //archivos a escanear
+        "rootDir": "./src",
+        //version de js
+        "lib": ["ESNext"],
+        //modo estricto
+        "strict": false,
+        //genera los maps para debuguear
+        "sourceMap": true,
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "esModuleInterop": true,
+        "declaration": true,
+        //habilitar decoradores (funciones)
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": ["src/**/*.test.ts"]
+}
